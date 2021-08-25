@@ -138,10 +138,10 @@ def welcome(o=""):
 
     title_label = Label(
         welcome_screen,
-        text="MarvellOS",
+        text="ChipLet",
         bg=background,
         fg="dark blue",
-        font=("Curlz MT", 35),
+        font=("Century", 40, "bold"),
     )
     title_label.place(x=70, y=100)
 
@@ -190,7 +190,7 @@ def welcome(o=""):
     )  # output label
 
     """----------------VERSION UPDATE LABEL----------------"""
-    t = "MarvellOS v1.3"
+    t = "ChipOS v0.1"
 
     inf = Label(
         welcome_screen,
@@ -254,7 +254,7 @@ class Home:
         self.tick1()
         wel1 = Label(
             home,
-            text="Here are your apps",
+            text="ChipOS apps",
             bg="black",
             fg="white",
             width=46,
