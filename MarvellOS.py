@@ -133,7 +133,7 @@ def welcome(o=""):
     truth = True
     welcome_screen.geometry(WINDOW_DIM)
     welcome_screen.resizable(False, False)
-    welcome_screen.title("MarvellOS")
+    welcome_screen.title("Chipos")
     welcome_screen.config(bg=background)
 
     title_label = Label(
@@ -141,7 +141,7 @@ def welcome(o=""):
         text="ChipLet",
         bg=background,
         fg="dark blue",
-        font=("Century", 40, "bold"),
+        font=("Century", 38, "bold"),
     )
     title_label.place(x=70, y=100)
 
